@@ -32,3 +32,58 @@ body {
     padding: 14px 16px;
     text-decoration: none;
 }
+
+.wrapper {
+    padding: 5%;
+}
+
+.wrapper hr {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrapper .professional {
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+
+.wrapper .extracurriculars {
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+
+.wrapper .list {
+    text-align: left;
+    padding-left: 15%;
+}
+
+.wrapper .list p {
+    padding-top: 0.7%;
+}
+
+.wrapper a {
+    text-decoration: none;
+    color: black; 
+
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: black; 
+}
+
+
+#fidelity a:hover {
+    color: #76A923;
+}
+
+#desc {
+    font-size: 11pt;
+}
+
+#maxwell a:hover {
+    color: #59B9D8;
+}
