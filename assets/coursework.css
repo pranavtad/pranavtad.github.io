@@ -8,27 +8,14 @@ body {
     "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.coursework-image {
     background-image: url(img/personal-site-1.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     overflow:"hidden";
-}
-
-.intro-wrapper img {
-    border: 8px solid #fff;
-    margin-right: 30px;
-    float: left;
-}
-
-.intro-wrapper {
-    background: rgba(255, 255, 255, 0.7);;
-    overflow: hidden;
-    padding: 3%;
-}
-
-.intro-wrapper .bio {
-    float: left;
 }
 
 .nav {
@@ -54,3 +41,37 @@ body {
     text-decoration: none;
 }
 
+.course-wrapper {
+    padding: 5%;
+}
+
+.course-wrapper hr {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.course-wrapper li {
+    padding-top: 1%;
+}
+.course-wrapper .michigan {
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+
+.course-wrapper .michigan .courses {
+    text-align: left;
+    padding-left: 15%;
+}
+
+.course-wrapper .andover {
+    text-align: center;
+    width:50%;
+    float: right;
+}
+
+.course-wrapper .andover .courses {
+    text-align: left;
+    padding-left: 15%;
+}
