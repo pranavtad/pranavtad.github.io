@@ -80,3 +80,16 @@ body {
     cursor: pointer;
     transform:scale(1.4);
 }
+
+#andover-header:hover #pa-blue {
+    color: #0058a0;
+}
+
+#andover-header:hover #abbot {
+    color: #66addc;
+}
+
+#andover-header:hover {
+    cursor: pointer;
+    transform:scale(1.4);
+}

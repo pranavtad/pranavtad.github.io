@@ -57,7 +57,7 @@ body {
 
 .wrapper .list {
     text-align: left;
-    padding-left: 15%;
+    padding-left: 8%;
 }
 
 .wrapper .list p {
@@ -84,6 +84,28 @@ a:visited {
     font-size: 11pt;
 }
 
+#date {
+    font-size: 10pt;
+}
+
 #maxwell a:hover {
     color: #59B9D8;
+}
+
+.extracurriculars .list #positions {
+    font-size: 13pt;
+}
+.extracurriculars .list li {
+    padding-top: 1%;
+    font-size: 11pt;
+
+}
+#extracurricular-desc p {
+    font-size: 11pt;
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+
+img {
+    
 }
