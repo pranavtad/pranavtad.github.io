@@ -98,6 +98,10 @@ a:visited {
     color: #59B9D8;
 }
 
+#akpsi a:hover {
+    color: #f7ba59;
+}
+
 .extracurriculars .element #positions {
     font-size: 13pt;
 }
@@ -116,4 +120,9 @@ img {
     display: block;
     margin: auto;
     border: 5px solid #00274c;
+}
+
+.caption {
+    padding-top: 1%;
+    font-size: 11pt;
 }
