@@ -1,19 +1,27 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
+    
     font-family: -apple-system, BlinkMacSystemFont,
     "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
-    background-image: url(img/personal-site-1.jpg);
+    background-image: url(img/squam.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     overflow:"hidden";
 }
+
+#background img {
+    width: 100%;
+}
+
+/*
 
 .intro-wrapper img {
     border: 8px solid #fff;
@@ -30,9 +38,14 @@ body {
 .intro-wrapper .bio {
     float: left;
 }
+*/
 
 .nav {
     text-align:center;    
+    position: fixed;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
 }
 
 .nav ul {
@@ -40,7 +53,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .nav li {
@@ -53,4 +66,3 @@ body {
     padding: 14px 16px;
     text-decoration: none;
 }
-
