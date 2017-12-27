@@ -19,6 +19,8 @@ body {
     margin-right: auto;
     margin-left: auto;
     width: 100%;
+    border-bottom: 1px solid #cccccc;
+
 }
 
 .nav ul {
