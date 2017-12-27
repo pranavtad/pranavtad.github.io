@@ -14,12 +14,12 @@ body {
 }
 
 .nav {
-    text-align:center;    
+    text-align:center; 
+    border-bottom: 1px solid #cccccc;
     position: fixed;
     margin-right: auto;
     margin-left: auto;
-    width: 100%;
-    z-index: 1000;
+    width: 100%;   
 }
 
 .nav ul {
@@ -39,6 +39,8 @@ body {
     color: black;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: 300;
+
 }
 
 .wrapper {

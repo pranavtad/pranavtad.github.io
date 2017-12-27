@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+    background-color: #fafafa;
+}
+
+.nav {
+    text-align:center;    
+    position: fixed;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.nav li {
+    display:inline;
+}
+
+.nav li a {
+    display: inline-block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.wrapper {
+    padding: 5%;
+}
+
+.head {
+    font-size: 30pt;
+    font-weight: 300;
+}
+
+.akpsite {
+    overflow: hidden;
+}
+
+.akpsite .left {
+    width: 30%;
+    float: left;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+.akpsite .right {
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-right: 6%;
+    width: 70%;
+    float: right;
+}
+
+.akpsiapp {
+    overflow: hidden;
+}
+
+.akpsiapp .left {
+    width: 30%;
+    float: left;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+.akpsiapp .right {
+    padding-left: 3%;
+    padding-top: 2.5%;
+    padding-right: 6%;
+    width: 70%;
+    float: right;
+}
+
+.personalsite {
+    overflow: hidden;
+}
+
+.personalsite .left {
+    width: 30%;
+    float: left;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+.personalsite .right {
+    padding-left: 3%;
+    padding-top: 2.5%;
+    padding-right: 6%;
+    width: 70%;
+    float: right;
+}
+
+p {
+    padding-top: 2%;
+    font-weight: 300;
+}
+
+.wrapper a {
+    text-decoration: none;
+    font-size: 24pt;
+    font-weight: 300;
+    color: #000;
+}
+
+a:visited {
+    color: #000;
+}
+
+a:hover {
+    color: #268eb7;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+#documentation {
+    color: #268eb7;
+    text-decoration: underline;
+    font-size: 12pt;
+}
+
+.wrapper img {
+    width: 80%;
+}
