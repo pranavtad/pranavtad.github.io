@@ -13,36 +13,6 @@ body {
     background-color: #fafafa;
 }
 
-.nav {
-    text-align:center;    
-    position: fixed;
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;
-    border-bottom: 1px solid #cccccc;
-
-}
-
-.nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.8);
-}
-
-.nav li {
-    display:inline;
-}
-
-.nav li a {
-    display: inline-block;
-    color: black;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-weight: 300;
-}
-
 .wrapper {
     padding: 5%;
 }
@@ -139,4 +109,67 @@ a:hover {
 
 .wrapper img {
     width: 80%;
+}
+
+@media only screen and (max-width: 850px) {
+    .head {
+        font-size: 24pt;
+        padding-top: 8%;
+    }
+    .akpsite {
+        padding-top: 3%;
+    }
+    .akpsite .left {
+        width: 100%;
+        display: block;
+    }
+
+    .akpsite .right {
+        width: 100%;
+        display: block;
+    }
+
+    .akpsite .left img {
+        padding: auto;
+        margin:auto;
+        display: block;
+    }
+
+    .akpsiapp {
+        padding-top: 8%;
+    }
+    .akpsiapp .left {
+        width: 100%;
+        display: block;
+    }
+
+    .akpsiapp .right {
+        width: 100%;
+        display: block;
+    }
+
+    .akpsiapp .left img {
+        padding: auto;
+        margin:auto;
+        display: block;
+    }
+
+    .personalsite {
+        padding-top: 8%;
+    }
+    .personalsite .left {
+        width: 100%;
+        display: block;
+    }
+
+    .personalsite .right {
+        width: 100%;
+        display: block;
+    }
+
+    .personalsite .left img {
+        padding: auto;
+        margin:auto;
+        display: block;
+    }
 }

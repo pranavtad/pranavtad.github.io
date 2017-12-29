@@ -13,38 +13,8 @@ body {
 
 }
 
-.nav {
-    text-align:center; 
-    border-bottom: 1px solid #cccccc;
-    position: fixed;
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;
-}
-
-.nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.9);
-}
-
-.nav li {
-    display:inline;
-}
-
-.nav li a {
-    display: inline-block;
-    color: black;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-weight: 300;
-
-}
-
 .wrapper {
-    padding: 5%;
+    padding: 80px 5% 5% 5%;
     overflow: auto;
 }
 
@@ -137,4 +107,31 @@ img {
 .caption {
     padding-top: 1%;
     font-size: 11pt;
+}
+
+
+
+@media only screen and (max-width: 640px) {
+
+    .wrapper {
+        padding-top: 8%;
+    }
+
+    .wrapper .professional {
+        padding-top: 5%;
+        text-align: center;
+        width:100%;
+    }
+    ul {
+        white-space:nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+
+    .wrapper .extracurriculars {
+        padding-top: 5%;
+        text-align: center;
+        width: 100%;
+    }
 }

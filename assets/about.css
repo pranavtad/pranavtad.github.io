@@ -13,36 +13,6 @@ body {
     background-color: #fafafa;
 }
 
-.nav {
-    text-align:center; 
-    border-bottom: 1px solid #cccccc;
-    position: fixed;
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;   
-}
-
-.nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.8);
-}
-
-.nav li {
-    display:inline;
-}
-
-.nav li a {
-    display: inline-block;
-    color: black;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-weight: 300;
-
-}
-
 .wrapper {
     padding: 5% 7% 7%;
 
@@ -160,4 +130,29 @@ body {
 
 .soundcloud:hover{
     background-image: url(img/Soundcloud-color.svg);
+}
+
+@media only screen and (max-width: 730px) {
+
+.wrapper .left {
+    padding-top: 5%;
+    text-align: center;
+    width:100%;
+}
+ul {
+    white-space:nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.wrapper .right {
+    padding-top: 5%;
+    text-align: left;
+    width: 100%;
+}
+
+.right img {
+    padding-left: 1%;
+}
 }

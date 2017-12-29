@@ -14,38 +14,8 @@ body {
 
 }
 
-.nav {
-    text-align:center; 
-    border-bottom: 1px solid #cccccc;
-    position: fixed;
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;   
-}
-
-.nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.9);
-}
-
-.nav li {
-    display:inline;
-}
-
-.nav li a {
-    display: inline-block;
-    color: black;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-weight: 300;
-
-}
-
 .course-wrapper {
-    padding: 5%;
+    padding: 80px 5% 5% 5%;
 }
 
 .course-wrapper hr {
@@ -103,4 +73,82 @@ body {
 #andover-header:hover {
     cursor: pointer;
     transform:scale(1.4);
+}
+
+@media only screen and (max-width:1300px) {
+    #michigan-header:hover {
+        cursor: pointer;
+        transform:scale(1.2);
+    }
+
+    #andover-header:hover {
+        cursor: pointer;
+        transform:scale(1.2);
+    }
+}
+
+@media only screen and (max-width:950px) {
+    #michigan-header:hover {
+        cursor: pointer;
+        transform:scale(1.1);
+    }
+
+    #andover-header:hover {
+        cursor: pointer;
+        transform:scale(1.1);
+    }
+}
+
+@media only screen and (max-width: 750px){
+    #michigan-header:hover {
+        cursor: pointer;
+        transform:scale(1.4);
+    }
+
+    #andover-header:hover {
+        cursor: pointer;
+        transform:scale(1.4);
+    }
+
+    .course-wrapper .michigan {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .course-wrapper .andover {
+        padding-top: 40px;
+        display: block;
+        text-align: center;
+        width: 100%;
+        padding-bottom: 80px;
+    }
+}
+
+
+
+@media only screen and (max-width: 640px) {
+    #michigan-header:hover {
+        cursor: pointer;
+        transform:scale(1.1);
+    }
+
+    #andover-header:hover {
+        cursor: pointer;
+        transform:scale(1.1);
+    }
+
+    .nav li {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .course-wrapper .michigan .courses {
+        padding-left: 8%;
+    }
+
+    .course-wrapper .andover .courses {
+        padding-left: 8%;
+    }
 }
