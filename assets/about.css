@@ -155,4 +155,34 @@ ul {
 .right img {
     padding-left: 1%;
 }
+
+.icons {
+    padding-bottom: 9%;
 }
+}
+
+@media only screen and (max-width: 640px) {
+
+    .wrapper .left {
+        padding-top: 8%;
+        text-align: center;
+        width:100%;
+    }
+    ul {
+        white-space:nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+    
+    .wrapper .right {
+        padding-top: 5%;
+        text-align: left;
+        width: 100%;
+    }
+    
+    .right img {
+        padding-left: 1%;
+    }
+
+    }
